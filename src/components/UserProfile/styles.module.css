@@ -1,0 +1,50 @@
+.userContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #0c0417;
+  box-shadow: 3px 3px 3px rgb(65, 65, 65);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.userContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+  gap: 50px;
+}
+
+.userContainer > div > img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.userContainer > div > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.userContainer > div > p {
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.userContainer > button {
+  width: 250px;
+  height: 50px;
+  background-color: indigo;
+  border: none;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
